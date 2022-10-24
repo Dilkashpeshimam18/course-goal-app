@@ -7,7 +7,13 @@
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
   cursor: pointer;
 }
+.button.inValid{
+  background-color: red;
+}
+.button.inValid:hover{
+  background-color: red;
 
+}
 .button:focus {
   outline: none;
 }
